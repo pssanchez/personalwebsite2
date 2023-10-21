@@ -1,0 +1,146 @@
+html{
+    scroll-behavior: smooth;
+}
+.box-container{
+    position:relative;
+    align:left;
+    left:8%;
+    width: 66vw;
+    height: 40vw;
+    background-color: none;
+    padding-top: 10vw;
+    text-align: left;
+    z-index: 1;
+}
+
+.box-heading-h1 {
+    font-size: 9vw; 
+    color: rgb(16, 22, 47);
+    height:5vw;
+    position:relative;
+    z-index:2;
+    font-family: "germania-one", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.box-text {
+    font-size: 3vw;
+    color: rgb(16, 22, 47);
+    text-align: left; 
+    z-index:2;
+    font-family: "capitolina", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.box-container img{
+    position: absolute;
+    height:33vw;
+    z-index:0;
+    left:90%;
+    top:9%;
+    scroll-behavior: smooth;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.contact a,
+.contact p {
+    margin: 0;
+    color: rgb(16, 22, 47);
+    font-family: "capitolina", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:2.5vw;
+    text-decoration: none;
+}
+  
+.contact a + p::before,
+.contact p + a::before {
+    content: "|";
+    margin: 0 10px;
+}
+  
+  
+.projects{
+    padding-top:4vw;
+    background-image:linear-gradient(#EFE0CD, #3E567C);
+}
+.project-head{
+    text-align:center;
+    padding-bottom:4vw;
+    font-family: "new-spirit-condensed", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(16, 22, 47);
+}
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px; 
+    grid-row-gap: 20px; 
+    margin: 0 auto;
+    max-width:800px;
+    z-index:1;
+    padding-bottom:200px;
+   
+}
+
+.project-box {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    transition: transform 0.3s, width 0.3s, height 0.3s;
+    background-color: rgba(76, 122, 214, 0.8);
+    transform: scale(1);
+    
+}
+.project-box img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+    
+}
+.project-box:hover {
+    transform: scale(1.05); 
+}
+  
+
+.project-box img:hover {
+    transform: scale(.9); 
+}
+  
+footer#contacts {
+    background-image:linear-gradient(#3E567C, #24344D);
+    height:auto;
+    width:auto;
+    position: relative; 
+    bottom: 0; 
+    left: 0; 
+    text-align: center; 
+}
+.footer-text{
+    padding-top:15px;
+    color:white;
+    padding-bottom:25px;
+    font-family: "capitolina", serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color:#24344D;
+}
+.footer-img img{
+    width: 100%;
+    height:100%;
+}
+.footer-text a{
+    font-size:2vw;
+    color: white;
+    display: block;
+}
+
