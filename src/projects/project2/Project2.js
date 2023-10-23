@@ -4,15 +4,15 @@ import "./Project2.css"
 function Project2() {
   return (
     <div>
-      <div className="head-container">
+      <div className="head-containerP2">
         <h1>02</h1>
           <div>
-            <h3>Custom Upcycled Chalkbags</h3>
+            <h2>Custom Upcycled Chalkbags</h2>
             <h3>Started for fun, Ongoing Project</h3>
             <h3>Physical Product</h3>
           </div>
       </div>
-      <div className="body">
+      <div className="bodyP2">
        
 
         <p>When rock climbing, spreading chalk on your hands helps prevent sweating and improves grip on the rock surfaces. Chalk Bags are pretty self explanatory, they hold the chalk for you. In most cases they are a small pouch with a strap that goes around the waist so it can continue to be used while on the wall.

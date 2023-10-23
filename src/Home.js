@@ -11,9 +11,9 @@ import TA from "./images/TA.png"
 import footer from "./images/footer.png"
 
 const projects = [
-  { id: 1, title: 'Project 1', thumbnail:pecan },
+  { id: 1, title: 'Project 1', thumbnail:scooter },
   { id: 2, title: 'Project 2', thumbnail:chalkbag },
-  { id: 3, title: 'Project 3', thumbnail:scooter },
+  { id: 3, title: 'Project 3', thumbnail:pecan },
   { id: 4, title: 'Project 4', thumbnail:surfboard },
   { id: 5, title: 'Project 5', thumbnail:TA},
   { id: 6, title: 'Project 6', thumbnail:thumbimage },
