@@ -4,11 +4,13 @@ import Home from './Home';
 import ProjectDetail from './ProjectDetails';
 import AboutMe from './Aboutme';
 import './App.css';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
     
     <Router>
+      <ScrollToTop/>
       <div className="App">
         <nav>
           <Link to="/">Home</Link>

@@ -4,6 +4,8 @@ import "./Project2.css"
 function Project2() {
   return (
     <div>
+      <header className = "P2-header">
+      </header>
       <div className="head-containerP2">
         <h1>02</h1>
           <div>
@@ -55,7 +57,8 @@ function Project2() {
         <h3> The Final Product</h3>
         <a>insert image</a>
       </div>
-
+      <footer className="P1-footer">
+      </footer>
     </div>
   );
 }

@@ -9,9 +9,11 @@
     background-color:#EFE0CD; 
     padding: 10px;
     padding-top: 20px;
+    padding-bottom:20px;
     font-family: "capitolina", serif;
     font-weight: 400;
     font-style: normal;
+    box-shadow: 0px 20px 40px rgba(36,52,77, 0.2);
   }
   
   nav a {
