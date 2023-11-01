@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Home.css"
 import image1 from "./images/websiteheadshot2.png"
-import thumbimage from "./images/demofrontimg.png"
+import geisel from "./images/webs_geisel.png"
 import pecan from "./images/PECANthumb.png"
 import chalkbag from "./images/chalkbag.png"
 import scooter from "./images/scooter.png"
@@ -16,7 +16,7 @@ const projects = [
   { id: 3, title: 'Project 3', thumbnail:pecan },
   { id: 4, title: 'Project 4', thumbnail:surfboard },
   { id: 5, title: 'Project 5', thumbnail:TA},
-  { id: 6, title: 'Project 6', thumbnail:thumbimage },
+  { id: 6, title: 'Project 6', thumbnail:geisel },
 ];
 
 function Home() {

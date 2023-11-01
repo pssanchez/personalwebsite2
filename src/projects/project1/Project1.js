@@ -1,7 +1,7 @@
 
 import React from 'react';
 import "./Project1.css";
-import redesign from "../../images/Project1.png";
+import redesign from "./p1_images/Project1.png";
 import data from "../../images/data.png"
 
 function Project1() {
