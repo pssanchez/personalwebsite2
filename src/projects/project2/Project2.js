@@ -1,6 +1,13 @@
 
 import React from 'react';
 import "./Project2.css"
+import cb11 from './p2_images/cb1.1.png'
+import cb12 from './p2_images/cb1.2.png'
+import cb21 from './p2_images/cb2.1.png'
+import cb22 from './p2_images/cb2.2.png'
+import cb31 from './p2_images/cb3.1.png'
+import cb32 from './p2_images/cb3.2.png'
+import p2head from './p2_images/p2head.png'
 function Project2() {
   return (
     <div>
@@ -14,6 +21,9 @@ function Project2() {
             <h3>Physical Product</h3>
           </div>
       </div>
+      <div className = "headimg">
+        <img src = {p2head}/>
+      </div>
       <div className="bodyP2">
        
 
@@ -25,9 +35,12 @@ function Project2() {
 
         <h3>Prototypes:</h3>
         <p>
-        My original two prototypes were very sloppy. I was using a sewing machine from the 90s that my grandma had given me and I had no idea what I was doing. After hours of sewing, then messing up, then cutting the threads, then re-sewing, then messing up again, in a seemingly endless cycle, I finally arrived at my first prototype. 
+        My original two prototypes were very sloppy. I was using a sewing machine from the 90s that my grandma had given me and I had no idea what I was doing. After hours of sewing, then messing up, then cutting the threads, then re-sewing, then messing up again, in a seemingly endless cycle, I finally arrived at my first prototype: 
         </p>
-        <a>Insert image</a>
+        <div className = 'proto-images'>
+          <img src = {cb11}/>
+          <img src = {cb12}/>
+        </div>
         <p>
         It consisted of:
         <ul>1. The outer bag that I had sewn out of scrap materials</ul> 
@@ -37,25 +50,26 @@ function Project2() {
         </p>
 
         <p>
-        The process for my second prototype was very much the same. Make a bag shape for the exterior and a reusable freezer baggy on the inside. However this time I wanted to make it twice as big. Why? I don't really know but I just kind of went for it.
+        The process for my second prototype was pretty similar but with a slight change. Make a bag shape for the exterior but find a new solution for the interior. This time I wanted to make it twice as big aswell. Why? I don't really know but I just kind of went for it.
 
         By this point I had started to understand the sewing machine a little better as well. My lines were getting cleaner, I started noticing less and less mistakes. I started to understand how, where, and when to place stitches. After around 4-5 hours of work, Chalk Bag Mark II was finished.
         </p>
-        <a>Insert Image</a>
-        <p>
-        It functioned much better than the first one which was very exciting. However, the closure system was still not at the quality I wanted it at. The ziplock baggie ended up bent and twisted in directions that made it hard to close (but easier than the first one). I wanted to find a better solution. 
-
-        After thinking and staring at the seemingly incomplete Chalk Bag Mark II on my desk for a couple of days, I decided to take it apart and assemble again with a better closure system.
+       <p> 
+        Most standard chalk bags make use of a drawstring closure system at the top of the bag that sinches tight when you pull on it. I had originally shied away from this on my chalk bags because it seemed harder than just sewing some plastic baggies in there. After contemplating and digging through my closet looking for a garment to use I finally found an old pair of pajama pants that did not fit me anymore. I cut about a foot up from the cuff of the pants on one of the legs and sewed the end without the cuff closed. I then cut a small hole in the cuff and fed a shoestring through and around the cuff of the pants. This was the inside of my chalk bag.
         </p>
-       <p> Most standard chalk bags make use of a drawstring closure system at the top of the bag that sinches tight when you pull on it. I had originally shied away from this on my chalk bags because it seemed harder than just sewing some plastic baggies in there. After contemplating and digging through my closet looking for a garment to use I finally found an old pair of pajama pants that did not fit me anymore. I cut about a foot up from the cuff of the pants on one of the legs and sewed the end without the cuff closed. I then cut a small hole in the cuff and fed a shoestring through and around the cuff of the pants. This was the inside of my chalk bag.
-
-        After removing the plastic baggy from my ChalkBag Mark II, it was ready for the new interior.
-        </p>
+        
         <p>
         I sewed the pajama pant leg into the inside of my chalk bag leaving about 2 inches of material around the top so that it can be cinched without changing the shape of the exterior. It was nearly perfect but missing something. So I took a strap off of an old bag and sewed it onto this one just because why not. And viola, my chalk bags are up and running.
         </p>
         <h3> The Final Product</h3>
-        <a>insert image</a>
+        <div className = 'proto-images'>
+          <img src = {cb31}/>
+          <img src = {cb32}/>
+        </div>
+        <div className = 'proto-images'>
+          <img src = {cb21}/>
+          <img src = {cb22}/>
+        </div>
       </div>
       <footer className="P1-footer">
       </footer>
