@@ -19,12 +19,14 @@ function Project5() {
       <div className = "headimg">
       </div>
       <div className="bodyP5">
-        <p>
-          UCSD in a Box is a business focused on creating mementos to commemorate the top landmarks around UCSD. Our most popular product is a 3D puzzle of UCSD’s Geisel Library, and we hope to soon start creating memorabilia of other renowned structures at UCSD. Our products will include 3D puzzles, Christmas ornaments, keychains, and more!        </p>
-        <h3>How We Started:</h3>
-        <p>
-          As a project for a Design class, my friend and I were tasked with creating a memento for a specific place or event of our choosing. Our idea was to create a memento of Geisel Library. Through this class, we discovered the existence of the Makerspace at UCSD. Here, a wide variety of tools is available for students to use, including 3D printers, laser cutters, resin printers, and a full woodshop. For our project, we decided to utilize the laser cutters to create pieces for the Geisel out of wood and acrylic. The original rendition featured a wooden base, a central pillar, and layers of 1/8th inch wood and acrylic stacked to represent the floors. We glued the layers together to ensure stability. At this point, we thought it was nothing more than just a class project.
-        </p>
+        <div className = 'top-body'>
+          <p>
+            UCSD in a Box is a business focused on creating mementos to commemorate the top landmarks around UCSD. Our most popular product is a 3D puzzle of UCSD’s Geisel Library, and we hope to soon start creating memorabilia of other renowned structures at UCSD. Our products will include 3D puzzles, Christmas ornaments, keychains, and more!        </p>
+          <h3>How We Started:</h3>
+          <p>
+            As a project for a Design class, my friend and I were tasked with creating a memento for a specific place or event of our choosing. Our idea was to create a memento of Geisel Library. Through this class, we discovered the existence of the Makerspace at UCSD. Here, a wide variety of tools is available for students to use, including 3D printers, laser cutters, resin printers, and a full woodshop. For our project, we decided to utilize the laser cutters to create pieces for the Geisel out of wood and acrylic. The original rendition featured a wooden base, a central pillar, and layers of 1/8th inch wood and acrylic stacked to represent the floors. We glued the layers together to ensure stability. At this point, we thought it was nothing more than just a class project.
+          </p>
+        </div>
         <h3>Prototyping:</h3>
           <div className="prototyping-container">
             <div className="prototyping-text">
@@ -33,6 +35,7 @@ function Project5() {
               </p>
             </div>
             <div className="prototyping-image">
+              <p>Original Sketch From My Ipad</p>
               <img src = {drawing}/>
             </div>
           </div>

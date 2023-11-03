@@ -2,6 +2,7 @@
 import React from 'react';
 import './Project4.css'
 import headimg from "./p4_images/p4headimg.png"
+import FinalProductGallery from '../p4-gallery/FinalProductGallery';
 
 function Project4() {
   return (
@@ -37,6 +38,7 @@ function Project4() {
         <p>
           The Gallery Below Displays My Process Through Shaping
         </p>
+        <FinalProductGallery />
       </div>
       <div className = 'P4-footer'></div>
     </div>

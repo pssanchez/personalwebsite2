@@ -9,6 +9,7 @@ import scooter from "./images/scooter.png"
 import surfboard from "./images/surfboard.png"
 import TA from "./images/TA.png"
 import footer from "./images/footer.png"
+import { useNavigate } from 'react-router-dom';
 
 const projects = [
   { id: 1, title: 'Project 1', thumbnail:scooter },
@@ -20,8 +21,14 @@ const projects = [
 ];
 
 function Home() {
+  const navigate = useNavigate();
+
   return (
     <div className='home'>
+      <nav>
+        <Link to="/">Home</Link>
+        <Link to="/about">About Me</Link>
+      </nav>
       <div className="box-container">
         <a href='#contacts'>
           <img src={image1} />

@@ -12,11 +12,6 @@ function App() {
     <Router>
       <ScrollToTop/>
       <div className="App">
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/about">About Me</Link>
-        </nav>
-
         <Routes>
           <Route path="/about" element={<AboutMe />}/>
           <Route path="/project/:id" element={<ProjectDetail />}/>
