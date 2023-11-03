@@ -3,7 +3,6 @@ html{
 }
 .box-container{
     position:relative;
-    align:left;
     left:8%;
     width: 66vw;
     height: 40vw;

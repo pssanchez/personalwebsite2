@@ -2,6 +2,7 @@
 import React from 'react';
 import "./Project3.css";
 import figma from './p3_images/pecan-figma.png';
+import bcard from './p3_images/pecan-b-card.png'
 
 function Project3() {
   return (
@@ -30,6 +31,10 @@ function Project3() {
             <li>Maintain the same colors as his original business card</li> 
             <li>Keep it simple, nothing crazy or fancy </li> 
           </ol>
+          <div className = 'bcardimg'>
+            <p>The business card given as reference:</p>
+            <img src = {bcard}/>
+          </div>
         </p>
 
         <h3>Prototypes:</h3>

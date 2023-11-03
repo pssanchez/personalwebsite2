@@ -15,8 +15,8 @@ const projects = [
   { id: 2, title: 'Project 2', thumbnail:chalkbag },
   { id: 3, title: 'Project 3', thumbnail:pecan },
   { id: 4, title: 'Project 4', thumbnail:surfboard },
-  { id: 5, title: 'Project 5', thumbnail:TA},
-  { id: 6, title: 'Project 6', thumbnail:geisel },
+  { id: 5, title: 'Project 5', thumbnail:geisel},
+  { id: 6, title: 'Project 6', thumbnail:TA},
 ];
 
 function Home() {
