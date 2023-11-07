@@ -59,7 +59,7 @@ function Project1() {
       </div>
       <footer className="P1-footer">
       </footer>
-
+ 
     </div>
   );
 }

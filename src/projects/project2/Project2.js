@@ -71,7 +71,7 @@ function Project2() {
           <img src = {cb22}/>
         </div>
       </div>
-      <footer className="P1-footer">
+      <footer className="P2-footer">
       </footer>
     </div>
   );

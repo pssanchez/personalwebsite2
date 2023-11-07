@@ -67,7 +67,7 @@ html{
   
 .projects{
     padding-top:4vw;
-    background-image:linear-gradient(#EFE0CD, #3E567C);
+    background-image:linear-gradient(#dee4ef, #3E567C);
 }
 .project-head{
     text-align:center;
@@ -79,12 +79,12 @@ html{
 }
 .project-list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px; 
     grid-row-gap: 20px; 
     margin: 0 auto;
-    max-width:800px;
-    z-index:1;
+    max-width:1000px;
+    z-index:1; 
     padding-bottom:200px;
    
 }

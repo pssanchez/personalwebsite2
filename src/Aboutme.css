@@ -1,0 +1,46 @@
+
+.about-body{
+    display: flex;
+}
+.bio  {
+    margin-top: 2vw;
+    margin-left:40px;
+    width: 60vw;
+    position:relative;
+    width: 66vw;
+    text-align: left;
+    flex:1;
+}
+.bio p{
+    width:58vw;
+    color:#24344D;
+    font-family: sans-serif;
+    font-size: 1.8vw;
+    padding-right: 10vw;
+    padding: 10px;
+}
+.about-head img{
+    height:35vw;
+    padding-top: 15vw;
+    flex:1;
+}
+.bio h2{
+    color:#24344D;
+    font-family: sans-serif;
+    font-size: 2vw;
+    padding:5px; 
+    padding-left:20px; 
+}
+.bio h1{
+    font-size: 9vw; 
+    color: rgb(16, 22, 47);
+    height:5vw;
+    position:relative;
+    z-index:2;
+    font-family: "germania-one", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+footer img{
+    width:100vw;
+}

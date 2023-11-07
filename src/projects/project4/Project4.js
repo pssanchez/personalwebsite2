@@ -38,7 +38,9 @@ function Project4() {
         <p>
           The Gallery Below Displays My Process Through Shaping
         </p>
-        <FinalProductGallery />
+      </div>
+      <div className="gallery">
+          <FinalProductGallery />
       </div>
       <div className = 'P4-footer'></div>
     </div>
