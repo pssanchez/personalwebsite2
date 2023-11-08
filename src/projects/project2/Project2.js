@@ -13,8 +13,8 @@ function Project2() {
     <div>
       <header className = "P2-header">
       </header>
-      <div className="head-containerP2">
-        <h1>02</h1>
+      <div className="head-containerP3">
+        <h1>03</h1>
           <div>
             <h2>Custom Upcycled Chalkbags</h2>
             <h3>Started for fun, Ongoing Project</h3>
