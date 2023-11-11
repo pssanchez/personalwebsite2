@@ -16,7 +16,7 @@ function AboutMe() {
       </nav>
         <div className = 'about-body'>  
           <div className = "bio">
-            <Textchange textArray={['Hola!', 'Sup!', 'Welcome!']} intervalDurationMs={5000} />
+            <Textchange textArray={['Hola!', 'Sup!', 'Welcome!']} intervalDurationMs={4000} />
             <div className = 'bio-text'>
               <p>
                 I'm Phoenix Sanchez, a third-year Cognitive Science student at UCSD, raised in Lake Tahoe, CA with a passion for extreme sports and the outdoors. Whether it was backcountry snowboarding or surfing in blizzards, I lived and breathed adventure. This environment shaped me, instilling the values of hard work and savoring every moment. These lessons now guide me in all aspects of my life: give your all, but always find joy in what you do.

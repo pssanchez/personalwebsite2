@@ -2,16 +2,18 @@
 .App {
     background-color: #dee4ef;
     color: white;
-    animation:  fade-in 2s;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
   }
-  @keyframes fade-in {
-    from {
-      opacity: 0;
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
     }
-    to {
-      opacity: 100;
-    }
-  }
+    100% {
+        opacity: 1;
+     }
+}
   nav{
     background-color:#dee4ef; 
     padding: 10px;
