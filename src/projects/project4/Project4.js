@@ -1,9 +1,12 @@
 
 import React from 'react';
-import './Project4.css'
-import headimg from "./p4_images/p4headimg.png"
-import FinalProductGallery from '../p4-gallery/FinalProductGallery';
-
+import "./Project4.css";
+import drawing from "./p4_images/connect-sketch.jpg";
+import headimg4 from "./p4_images/proj4-head.png";
+import inksc from "./p4_images/inksc.png";
+import geis1 from "./p4_images/geis1.png";
+import geis2 from "./p4_images/geis2.png"
+import geis3 from "./p4_images/geis3.png"
 function Project4() {
   return (
     <div>
@@ -12,35 +15,58 @@ function Project4() {
       <div className="head-containerP4">
         <h1>04</h1>
           <div>
-            <h2>Custom Surfboard Shaping</h2>
-            <h3>Taken on for fun, physical product</h3>
+            <h2>UCSD In A Box</h2>
+            <h3>Prospective Business, Physical Product</h3>
             <h3>Display of Hands On Skills</h3>
           </div>
         
       </div>
-      <div className = "headimg">
-        <img src = {headimg}/>
+      <div className = "headimg4">
+        <img src = {headimg4}/>
       </div>
       <div className="bodyP4">
-        <p>
-          Surfing is one of my favorite pastimes and sports that I do. I began shaping surfboards in the fall of 2023 because who wouldn't want to make their own surfboard, right? 
-        </p>
-        <h3>Motivation</h3>
-        <p>
-          In the mid-2000s, my dad owned a company called Trilogy Arts, which made skateboards, surfboards, and snowboards. Some of my earliest memories are of the shop we had in Kings Beach on the north shore of Lake Tahoe. My school was just a 5-minute walk away, so I would spend nearly every day there surrounded by board sport culture. Unfortunately, in the recession of 2008, my dads company went under, and we lost everything. My dream, for as long as I can remember, has been to restart this company and spread the board culture I loved and grew up in. (More on this in a future project). So, in highschool, I started pressing skateboard decks, my dad got in contact with snowboard manufacturers, and the dream slowly started coming to fruition. As of now, my major limiting factors in the progression of this business are funding and time. As a full-time student, both time and money are fairly scarce. However, the dream is not completely dead, and to continue progressing, I took it upon myself to learn how to shape surfboards.          
-        </p>
-
-        <h3>What Makes This Possible</h3>
-        <p>
-          My journey into surfboard shaping and the surf industry would not have been possible without the help of the people at UCSD Craft Center. Through them, I took a course with professional board shapers who guided me through the process of making my first board. Now that I have acquired the basic skills from that course, I have full access to their board shaping studio and will be spending as much time there as I can manage, as this has become one of my all-time passions. My dream to rebuild my dads business has been reignited and for that I am very grateful.
-        </p>
+        <div className = 'top-body'>
+          <p>
+            UCSD in a Box is a business focused on creating mementos to commemorate the top landmarks around UCSD. Our most popular product is a 3D puzzle of UCSD’s Geisel Library, and we hope to soon start creating memorabilia of other renowned structures at UCSD. Our products will include 3D puzzles, Christmas ornaments, keychains, and more!
+          </p>
+          <h3>Skills Displayed:</h3>
+        <ul>
+          <li>Laser Cutting and Engraving</li>
+          <li>Design Adaptation</li>
+          <li>CAD(Inkscape)</li>
+        </ul>
+        <ul>
+          <li>Quality Control and Inspection</li>
+          <li>Creativity and Design Innovation</li>
+          <li>Problem-Solving Abilities</li>
+        </ul>
+          <h3>How We Started:</h3>
+          <p>
+            As a project for a Design class, my friend and I were tasked with creating a memento for a specific place or event of our choosing. Our idea was to create a memento of Geisel Library. Through this class, we discovered the existence of the Makerspace at UCSD. Here, a wide variety of tools is available for students to use, including 3D printers, laser cutters, resin printers, and a full woodshop. For our project, we decided to utilize the laser cutters to create pieces for the Geisel out of wood and acrylic. The original rendition featured a wooden base, a central pillar, and layers of 1/8th inch wood and acrylic stacked to represent the floors. We glued the layers together to ensure stability. At this point, we thought it was nothing more than just a class project.
+          </p>
+        </div>
+        <h3>Prototyping:</h3>
+          <div className="prototyping-container">
+            <div className="prototyping-text">
+              <p>
+                The next step was to create a definitive product that we actually wanted to sell. We realized that layers of wood and acrylic glued together might not be the best product design. Instead, we decided to transform the model into a 3D build-it-yourself puzzle that requires no glue or adhesive of any kind.<br></br><br></br>I began mocking up designs I thought would work on my iPad, just sketching out rough ideas for connection systems that don't require glue. After finalizing an idea I believed would work best, the next step was creating the pieces in Inkscape, a software used for vector graphics.<br></br><br></br>After about two days of designing, printing, testing, and tweaking, to my surprise, my idea for a connection system worked out perfectly. Now, we have clearance to sell the models at the UCSD Craft Center and are working to get them into the campus bookstore. Once we receive approval for the idea, our next steps will be to finalize packaging and instructions.
+              </p>
+            </div>
+            <div className="prototyping-image">
+              <p>Original Sketch From My Ipad</p>
+              <img src = {drawing}/>
+            </div>
+          </div>
+          <div className = "inksc-conatainer">
+            <p>My inkscape files for wood and acrylic, respectivley</p>
+            <img src = {inksc}/>
+          </div>
         <h3> The Final Product:</h3>
-        <p>
-          The Gallery Below Displays My Process Through Shaping
-        </p>
-      </div>
-      <div className="gallery">
-          <FinalProductGallery />
+        <div className = "final-prod">
+          <img src = {geis1}/>
+          <img src = {geis2}/>
+          <img src = {geis3}/>
+        </div>
       </div>
       <div className = 'P4-footer'></div>
     </div>

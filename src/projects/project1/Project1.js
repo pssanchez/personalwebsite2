@@ -25,6 +25,18 @@ function Project1() {
           As a project for my DSGN 1 class, I was placed in a group with 5 other designers with an objective to find an everyday item that had some sort of flaw in its design. My group chose the rideshare service SPIN.
           <a href= "https://docs.google.com/document/d/1VHDvcHSWqgVnjmUWmJ2Z4fSX8D6n0XTA0cI4hHTgxnA/edit" target = 'blank'>The full report can be found here</a>, a brief summary can be found down the page.
         </p>
+        <h3>Skills Displayed:</h3>
+        <ul>
+          <li>User Research and Analysis</li>
+          <li>User Journey Mapping</li>
+          <li>Prototyping</li>
+          <li>Group Collaboration</li>
+        </ul>
+        <ul>
+          <li>Design Thinking</li>
+          <li>Problem-Solving Abilities</li>
+          <li>Documentation and Reporting</li>
+        </ul>
         <h3>Brief Summary:</h3>
         <p>
           Based on our group's previous experience riding SPIN scooters, there were several notable issues in the design that hindered the overall user experience. 

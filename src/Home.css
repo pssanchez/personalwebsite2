@@ -4,7 +4,7 @@ html{
 .box-container{
     position:relative;
     left:8%;
-    width: 66vw;
+    width: 66vw; 
     height: 40vw;
     background-color: none;
     padding-top: 10vw;
@@ -57,12 +57,10 @@ html{
     font-size:2.5vw;
     text-decoration: none;
 }
-  
-.contact a + p::before,
-.contact p + a::before {
-    content: "|";
-    margin: 0 10px;
+.contact a:hover{
+    text-decoration:underline;
 }
+  
   
   
 .projects{

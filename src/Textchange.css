@@ -1,0 +1,32 @@
+.text-container {
+    transition: opacity 1s ease-in-out;
+    font-size: 9vw; 
+    color: rgb(16, 22, 47);
+    height:5vw;
+    position:relative;
+    z-index:2;
+    font-family: "germania-one", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.default-text {
+    font-size: 9vw; 
+    color: rgb(16, 22, 47);
+    height:5vw;
+    position:relative;
+    z-index:2;
+    font-family: "germania-one", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fade-in-text {
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}

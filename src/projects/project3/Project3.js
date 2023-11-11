@@ -1,8 +1,8 @@
 
 import React from 'react';
-import "./Project3.css";
-import figma from './p3_images/pecan-figma.png';
-import bcard from './p3_images/pecan-b-card.png'
+import './Project3.css'
+import headimg3 from "./p3_images/p3headimg.png"
+import FinalProductGallery from './p3-gallery/FinalProductGallery';
 
 function Project3() {
   return (
@@ -12,46 +12,47 @@ function Project3() {
       <div className="head-containerP3">
         <h1>03</h1>
           <div>
-            <h2>Pecan FO Website</h2>
-            <h3>Proffesional Website, Finished Product</h3>
-            <h3>Incorporates UI/UX skills</h3>
+            <h2>Custom Surfboard Shaping</h2>
+            <h3>Taken on for fun, physical product</h3>
+            <h3>Display of Hands On Skills</h3>
           </div>
+        
+      </div>
+      <div className = "headimg3">
+        <img src = {headimg3}/>
       </div>
       <div className="bodyP3">
-       
+        <p>
+          Surfing is one of my favorite pastimes and sports that I do. I began shaping surfboards in the fall of 2023 because who wouldn't want to make their own surfboard, right? 
+        </p>
+        <h3>Skills Displayed:</h3>
+        <ul>
+          <li>Hands on Construction</li>
+          <li>Power/Hand Tools Proficiency</li>
+          <li>Attention to Detail</li>
+          
+        </ul>
+        <ul>
+          <li>Creativity and Innovation</li>
+          <li>Safety and Work Environment Knowledge</li>
+          <li>Quality Control and Assurance</li>
+        </ul>
+        <h3>Motivation</h3>
+        <p>
+          In the mid-2000s, my dad owned a company called Trilogy Arts, which made skateboards, surfboards, and snowboards. Some of my earliest memories are of the shop we had in Kings Beach on the north shore of Lake Tahoe. My school was just a 5-minute walk away, so I would spend nearly every day there surrounded by board sport culture. Unfortunately, in the recession of 2008, my dads company went under, and we lost everything. My dream, for as long as I can remember, has been to restart this company and spread the board culture I loved and grew up in. (More on this in a future project). So, in highschool, I started pressing skateboard decks, my dad got in contact with snowboard manufacturers, and the dream slowly started coming to fruition. As of now, my major limiting factors in the progression of this business are funding and time. As a full-time student, both time and money are fairly scarce. However, the dream is not completely dead, and to continue progressing, I took it upon myself to learn how to shape surfboards.          
+        </p>
 
+        <h3>What Makes This Possible</h3>
         <p>
-          During the summer of 2022, a friend of mine reached out to me, asking if I could help him build a website for his dad's family office. All of my coding experience prior to this had been limited to personal projects, so I eagerly seized the opportunity to apply my skills to a more meaningful endeavor. In addition to this, my friend was relatively new to front-end web development and the website-building process, so I saw it as a chance to learn through teaching. The website can be found here and the  
-          <a href = 'https://github.com/sebiperry/Pecan-Family-Office' target = 'blank'> github repository can be found here</a>
+          My journey into surfboard shaping and the surf industry would not have been possible without the help of the people at UCSD Craft Center. Through them, I took a course with professional board shapers who guided me through the process of making my first board. Now that I have acquired the basic skills from that course, I have full access to their board shaping studio and will be spending as much time there as I can manage, as this has become one of my all-time passions. My dream to rebuild my dads business has been reignited and for that I am very grateful.
         </p>
-        <h3>Process</h3>
-        <p>
-          My friend's dad, I'll call him Mr.Pecan since I am unsure if he would like to be featured in this excerpt, gave us only a few constraints in his desire for the website. These were: 
-          <ol>
-            <li>Maintain the same colors as his original business card</li> 
-            <li>Keep it simple, nothing crazy or fancy </li> 
-          </ol>
-          <div className = 'bcardimg'>
-            <p>The business card given as reference:</p>
-            <img src = {bcard}/>
-          </div>
-        </p>
-
-        <h3>Prototypes:</h3>
-        <p>
-          Our original prototype was designed on figma. The basic intended functionality was to have three tabs in a banner at the top of the screen where you could choose between the different parts of the website (home, history, about). In the top left corner we placed the company slogan as well. Each of the pages would only have text on them to keep things simple and each would have a footer with Mr.Pecans email which was the only contact information he wanted on the website. Each page would also have a main photo at the front with the Pecan Fo logo hovering in the top left. And finally to keep to the constraints, everything was done in the brown and green color scheme of the original business card.
-        </p>
-        <div className = 'fig-img'>
-          <p>The figma prototype can be found by clicking this image:</p>
-          <a href = 'https://www.figma.com/file/zdL05sQe0hpxjmzPcAL5v4/Pecan-FO-protot?type=design&node-id=0%3A1&mode=design&t=iSfW4ElkudKCC4Dl-1' target = 'blank'>
-            <img src = {figma}/>
-          </a>
-        </div>
         <h3> The Final Product:</h3>
         <p>
-        The implementation of our ideas was pretty easy as everything was kept very simple. The pages remained almost exactly the same as how we originally designed them except for the history page where we decided to use a slideshow of the three locations the business has been based out of in the past (San Diego, Pittsburgh, New York) instead of just having a head photo.
+          The Gallery Below Displays My Process Through Shaping
         </p>
-        <a>insert image</a>
+      </div>
+      <div className="gallery">
+          <FinalProductGallery />
       </div>
       <div className = 'P3-footer'></div>
     </div>

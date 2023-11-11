@@ -1,78 +1,72 @@
 
 import React from 'react';
-import "./Project2.css"
-import cb11 from './p2_images/cb1.1.png'
-import cb12 from './p2_images/cb1.2.png'
-import cb21 from './p2_images/cb2.1.png'
-import cb22 from './p2_images/cb2.2.png'
-import cb31 from './p2_images/cb3.1.png'
-import cb32 from './p2_images/cb3.2.png'
-import p2head from './p2_images/p2head.png'
+import "./Project2.css";
+import figma from './p2_images/pecan-figma.png';
+import bcard from './p2_images/pecan-b-card.png'
+
 function Project2() {
   return (
     <div>
       <header className = "P2-header">
       </header>
-      <div className="head-containerP3">
-        <h1>03</h1>
+      <div className="head-containerP2">
+        <h1>02</h1>
           <div>
-            <h2>Custom Upcycled Chalkbags</h2>
-            <h3>Started for fun, Ongoing Project</h3>
-            <h3>Physical Product</h3>
+            <h2>Pecan FO Website</h2>
+            <h3>Proffesional Website, Finished Product</h3>
+            <h3>UI/UX product</h3>
           </div>
-      </div>
-      <div className = "headimg">
-        <img src = {p2head}/>
       </div>
       <div className="bodyP2">
        
 
-        <p>When rock climbing, spreading chalk on your hands helps prevent sweating and improves grip on the rock surfaces. Chalk Bags are pretty self explanatory, they hold the chalk for you. In most cases they are a small pouch with a strap that goes around the waist so it can continue to be used while on the wall.
+        <p>
+          During the summer of 2022, a friend of mine reached out to me, asking if I could help him build a website for his dad's family office. All of my coding experience prior to this had been limited to personal projects, so I eagerly seized the opportunity to apply my skills to a more meaningful endeavor. In addition to this, my friend was relatively new to front-end web development and the website-building process, so I saw it as a chance to learn through teaching. The website can be found here and the  
+          <a href = 'https://github.com/sebiperry/Pecan-Family-Office' target = 'blank'> github repository can be found here</a>
         </p>
-        <h3>Motivation</h3>
-        <p> Over the course of the summer of 2023, I developed a love for rock climbing. Climbing nearly every other day at my school's gym, it soon became one of the most prominent activities in my day to day life. Eventually, the instagram algorithm started showing me tons of climbing videos, one of them being a video of somebody making their own chalk bag. Seeing this, I said to myself “I wanna try”, and so I did.
+        <h3>Skills Displayed:</h3>
+        <ul>
+          <li>UI/UX</li>
+          <li>React</li>
+          <li>HTML/CSS</li>
+          <li>Javascript</li>
+          <li>Web Development Tools</li>
+        </ul>
+        <ul>
+          <li>Version Control (Git)</li>
+          <li>Prototyping</li>
+          <li>Customer Input -> Product</li>
+        </ul>
+        <h3>Process</h3>
+        <p>
+          My friend's dad, I'll call him Mr.Pecan since I am unsure if he would like to be featured in this excerpt, gave us only a few constraints in his desire for the website. These were: 
+          <ol>
+            <li>Maintain the same colors as his original business card</li> 
+            <li>Keep it simple, nothing crazy or fancy </li> 
+          </ol>
+          <div className = 'bcardimg'>
+            <p>The business card given as reference:</p>
+            <img src = {bcard}/>
+          </div>
         </p>
 
         <h3>Prototypes:</h3>
         <p>
-        My original two prototypes were very sloppy. I was using a sewing machine from the 90s that my grandma had given me and I had no idea what I was doing. After hours of sewing, then messing up, then cutting the threads, then re-sewing, then messing up again, in a seemingly endless cycle, I finally arrived at my first prototype: 
+          Our original prototype was designed on figma. The basic intended functionality was to have three tabs in a banner at the top of the screen where you could choose between the different parts of the website (home, history, about). In the top left corner we placed the company slogan as well. Each of the pages would only have text on them to keep things simple and each would have a footer with Mr.Pecans email which was the only contact information he wanted on the website. Each page would also have a main photo at the front with the Pecan Fo logo hovering in the top left. And finally to keep to the constraints, everything was done in the brown and green color scheme of the original business card.
         </p>
-        <div className = 'proto-images'>
-          <img src = {cb11}/>
-          <img src = {cb12}/>
+        <div className = 'fig-img'>
+          <p>The figma prototype can be found by clicking this image:</p>
+          <a href = 'https://www.figma.com/file/zdL05sQe0hpxjmzPcAL5v4/Pecan-FO-protot?type=design&node-id=0%3A1&mode=design&t=iSfW4ElkudKCC4Dl-1' target = 'blank'>
+            <img src = {figma}/>
+          </a>
         </div>
+        <h3> The Final Product:</h3>
         <p>
-        It consisted of:
-        <ul>1. The outer bag that I had sewn out of scrap materials</ul> 
-        <ul>2. A reusable ziplock freezer baggy on the inside to hold the chalk. </ul> 
-
-        It kind of worked but not really. My stitches were sloppy with threads hanging everywhere, the ziplock was all warped and weird from sewing through it so it would not close properly, everything was just slightly off about it. However it was not a complete failure, and this is what gave me hope in producing prototype 2.
+        The implementation of our ideas was pretty easy as everything was kept very simple. The pages remained almost exactly the same as how we originally designed them except for the history page where we decided to use a slideshow of the three locations the business has been based out of in the past (San Diego, Pittsburgh, New York) instead of just having a head photo.
         </p>
-
-        <p>
-        The process for my second prototype was pretty similar but with a slight change. Make a bag shape for the exterior but find a new solution for the interior. This time I wanted to make it twice as big aswell. Why? I don't really know but I just kind of went for it.
-
-        By this point I had started to understand the sewing machine a little better as well. My lines were getting cleaner, I started noticing less and less mistakes. I started to understand how, where, and when to place stitches. After around 4-5 hours of work, Chalk Bag Mark II was finished.
-        </p>
-       <p> 
-        Most standard chalk bags make use of a drawstring closure system at the top of the bag that sinches tight when you pull on it. I had originally shied away from this on my chalk bags because it seemed harder than just sewing some plastic baggies in there. After contemplating and digging through my closet looking for a garment to use I finally found an old pair of pajama pants that did not fit me anymore. I cut about a foot up from the cuff of the pants on one of the legs and sewed the end without the cuff closed. I then cut a small hole in the cuff and fed a shoestring through and around the cuff of the pants. This was the inside of my chalk bag.
-        </p>
-        
-        <p>
-        I sewed the pajama pant leg into the inside of my chalk bag leaving about 2 inches of material around the top so that it can be cinched without changing the shape of the exterior. It was nearly perfect but missing something. So I took a strap off of an old bag and sewed it onto this one just because why not. And viola, my chalk bags are up and running.
-        </p>
-        <h3> The Final Product</h3>
-        <div className = 'proto-images'>
-          <img src = {cb31}/>
-          <img src = {cb32}/>
-        </div>
-        <div className = 'proto-images'>
-          <img src = {cb21}/>
-          <img src = {cb22}/>
-        </div>
+        <a>insert image</a>
       </div>
-      <footer className="P2-footer">
-      </footer>
+      <div className = 'P2-footer'></div>
     </div>
   );
 }
