@@ -3,6 +3,12 @@ import React from 'react';
 import "./Project2.css";
 import figma from './p2_images/pecan-figma.png';
 import bcard from './p2_images/pecan-b-card.png'
+import pecan1 from './p2_images/pecan1.png'
+import pecan2 from './p2_images/pecan2.png'
+import pecan3 from './p2_images/pecan3.png'
+import pecan4 from './p2_images/pecan4.png'
+import pecan5 from './p2_images/pecan5.png'
+import pecan6 from './p2_images/pecan6.png'
 
 function Project2() {
   return (
@@ -21,8 +27,8 @@ function Project2() {
        
 
         <p>
-          During the summer of 2022, a friend of mine reached out to me, asking if I could help him build a website for his dad's family office. All of my coding experience prior to this had been limited to personal projects, so I eagerly seized the opportunity to apply my skills to a more meaningful endeavor. In addition to this, my friend was relatively new to front-end web development and the website-building process, so I saw it as a chance to learn through teaching. The website can be found here and the  
-          <a href = 'https://github.com/sebiperry/Pecan-Family-Office' target = 'blank'> github repository can be found here</a>
+          During the summer of 2022, a friend of mine reached out to me, asking if I could help him build a website for his dad's family office. All of my coding experience prior to this had been limited to personal projects, so I eagerly seized the opportunity to apply my skills to a more meaningful endeavor. In addition to this, my friend was relatively new to front-end web development and the website-building process, so I saw it as a chance to learn through teaching.  
+          <a href = 'https://github.com/sebiperry/Pecan-Family-Office' target = 'blank'> The websites github repository can be found here</a>
         </p>
         <h3>Skills Displayed:</h3>
         <ul>
@@ -64,7 +70,14 @@ function Project2() {
         <p>
         The implementation of our ideas was pretty easy as everything was kept very simple. The pages remained almost exactly the same as how we originally designed them except for the history page where we decided to use a slideshow of the three locations the business has been based out of in the past (San Diego, Pittsburgh, New York) instead of just having a head photo.
         </p>
-        <a>insert image</a>
+        <div className = 'fin-img'>
+            <img src = {pecan1}/>
+            <img src = {pecan2}/>
+            <img src = {pecan3}/>
+            <img src = {pecan4}/>
+            <img src = {pecan5}/>
+            <img src = {pecan6}/>
+        </div>
       </div>
       <div className = 'P2-footer'></div>
     </div>

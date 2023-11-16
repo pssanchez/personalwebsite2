@@ -21,7 +21,7 @@ function Project5() {
             <h3>Physical Product</h3>
           </div>
       </div>
-      <div className = "headimg">
+      <div className = "headimg5"> 
         <img src = {p5head}/>
       </div>
       <div className="bodyP5">

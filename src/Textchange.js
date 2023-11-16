@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import './Textchange.css';
 
+
+
+
+
 class Textchange extends Component {
     constructor(props) {
         super(props);
@@ -9,6 +13,7 @@ class Textchange extends Component {
             headerText: 'Hello!',
             fadingOut: false,
             textClass: 'default-text',
+            fontSizeMultiplier: 1, 
         };
     }
 
@@ -21,8 +26,8 @@ class Textchange extends Component {
     }
 
     startTextChange = () => {
-        let array = this.props.textArray, 
-            intervalDurationMs = this.props.intervalDurationMs, 
+        let array = this.props.textArray,
+            intervalDurationMs = this.props.intervalDurationMs,
             currentIndex = 0,
             maxNumTimes = -1,
             numTimesRan = 0;
@@ -33,12 +38,23 @@ class Textchange extends Component {
             });
 
             setTimeout(() => {
-                this.setState({
+                this.setState((prevState) => ({
                     headerText: array[currentIndex],
                     fadingOut: false,
                     textClass: 'fade-in-text',
-                });
+                    fontSizeMultiplier: 1.25, 
+                }));
 
+                const growingInterval = setInterval(() => {
+                    this.setState((prevState) => ({
+                        fontSizeMultiplier: prevState.fontSizeMultiplier === 1.25 ? 1 : 1.25, // Toggle font size
+                    }));
+                }, 250); 
+
+                setTimeout(() => {
+                    clearInterval(growingInterval);
+                }, 1000); 
+                
                 currentIndex++;
                 if (currentIndex > array.length - 1) {
                     if (maxNumTimes === -1) {
@@ -57,10 +73,14 @@ class Textchange extends Component {
     };
 
     render() {
-        const { headerText, fadingOut, textClass } = this.state;
+        const { headerText, fadingOut, textClass, fontSizeMultiplier } = this.state;
+        const fontSize = `${7 * fontSizeMultiplier}vw`; 
 
         return (
-            <div className={`text-container ${fadingOut ? 'fade-out' : textClass}`}>
+            <div
+                className={`text-container ${fadingOut ? 'fade-out' : textClass}`}
+                style={{ fontSize }} 
+            >
                 {headerText}
             </div>
         );

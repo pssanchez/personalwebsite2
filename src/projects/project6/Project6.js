@@ -5,7 +5,7 @@ import './Project6.css'
 function Project6() {
   return (
     <div className = 'P6'>
-      <h1>Coming Soon, Check Back Later ;)</h1>
+      <h1>cooking...</h1>
     </div>
   );
 }
