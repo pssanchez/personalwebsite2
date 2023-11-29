@@ -3,11 +3,11 @@ html{
 }
 .box-container{
     position:relative;
-    left:8%;
-    width: 66vw; 
+    left:6%;
+    width: 65vw; 
     height: 40vw;
     background-color: none;
-    padding-top: 10vw;
+    padding-top: 6vw;
     text-align: left;
     z-index: 1;
 }
@@ -35,9 +35,9 @@ html{
 }
 .box-container img{
     position: absolute;
-    height:33vw;
+    height:30vw;
     z-index:0;
-    left:90%;
+    left:93%;
     top:9%;
     scroll-behavior: smooth;
 }
@@ -64,7 +64,7 @@ html{
   
   
 .projects{
-    padding-top:4vw;
+    margin-top:10vw;
     background-image:linear-gradient(#dee4ef, #3E567C);
 }
 .project-head{

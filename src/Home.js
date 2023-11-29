@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Home.css"
+import {RevealVertical} from "./RevealVertical.js"
+import {RevealHorizontal} from "./RevealHorizontal.js"
+import {RevealBar} from "./RevealBar.js"
 import image1 from "./images/websiteheadshot2.png"
 import geisel from "./images/webs_geisel.png"
 import pecan from "./images/PECANthumb.png"
@@ -29,22 +32,32 @@ function Home() {
         <Link to="/">Home</Link>
         <Link to="/about">About Me</Link>
       </nav>
+      
       <div className="box-container">
         <a href='#contacts'>
           <img src={image1} />
         </a>
+        <RevealBar>
         <h1 className="box-heading-h1">PHOENIX SANCHEZ</h1>
+        </RevealBar>
+        <RevealVertical>
         <p className='box-text'> Aspiring UI/UX Designer : Cognitive Science student with a specialization in Interaction and Design</p>
           <div className = "contact">
             <a href="mailto:pssanchez@ucsd.edu">mail </a>
             <p> | </p><a href="https://github.com/pssanchez" target="_blank"> github</a><p> | </p>
             <a href="https://www.linkedin.com/in/phoenix-sanchez-37a73b26b/" target="_blank">linkedin</a>
           </div>
-      </div>
+          </RevealVertical>
+      </div> 
+      
+     
       <div className="projects">
+        <RevealVertical>
         <div className="project-head">
-          <h1>List of Projects</h1>
+          <h1>My Work</h1>
         </div>
+        </RevealVertical>
+        <RevealHorizontal>
         <div className="project-list">
           {projects.map(project => (
             <Link to={`/project/${project.id}`} key={project.id}>
@@ -54,7 +67,9 @@ function Home() {
             </Link>
           ))}
         </div>
+        </RevealHorizontal>
       </div>
+      
       <div>
         <footer id="contacts">
           

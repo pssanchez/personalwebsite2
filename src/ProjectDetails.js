@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import Project1 from './projects/project1/Project1'; // Import the individual project components
+import Project1 from './projects/project1/Project1'; 
 import Project2 from './projects/project2/Project2';
 import Project3 from './projects/project3/Project3';
 import Project4 from './projects/project4/Project4';
@@ -30,9 +30,9 @@ function ProjectDetail() {
     case '6':
       ProjectComponent = Project6;
       break;
-    // Add cases for other projects as needed
+    
     default:
-      ProjectComponent = null; // Handle unknown project IDs
+      ProjectComponent = null; 
   }
 
   return (

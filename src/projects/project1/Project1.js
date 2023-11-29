@@ -3,12 +3,13 @@ import React from 'react';
 import "./Project1.css";
 import redesign from "./p1_images/Project1.png";
 import data from "../../images/data.png"
-
+import {RevealBar}from "../../RevealBar"
 function Project1() {
   return (
     <div>
       <header className = "P1-header">
       </header>
+      <RevealBar>
       <div className="head-containerP1">
         <h1>01</h1>
           <div>
@@ -17,6 +18,7 @@ function Project1() {
             <h3>Research/Proposed Product</h3>
           </div>
       </div>
+      </RevealBar>
       <div className="head-img" >
         <img src={redesign}/>
       </div>
