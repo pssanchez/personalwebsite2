@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Textchange from './Textchange.js';
 import './Aboutme.css';
 import headphoto from  './images/about-photo.png'
-import footphoto from "./images/about-foot.png"
+import footphoto from "./images/about-foot2.png"
 import { RevealVertical } from './RevealVertical.js';
 import { RevealHorizontal } from './RevealHorizontal.js';
 
@@ -45,7 +45,7 @@ function AboutMe() {
             <img src = {headphoto} />
           </div>
         </div>
-      <footer>
+      <footer className='foot'>
         <img src = {footphoto}/>
       </footer>
     </div>

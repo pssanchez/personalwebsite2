@@ -1,6 +1,7 @@
 
 .about-body{
     display: flex;
+    background-color: white;
 }
 .about-nav {
     position: absolute;
@@ -87,6 +88,14 @@
     font-style: italic;
     font-size: 1.3vw;
 }
-footer img{
-    width:98vw;
+.thanks{
+    margin-bottom: 3vw;
+}
+.foot{
+    text-align: center;
+}
+.foot img{
+    width:30vw;
+    display: block; /* Make the image a block-level element */
+    margin: 0 auto;   
 }

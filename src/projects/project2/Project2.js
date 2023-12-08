@@ -66,7 +66,7 @@ function Project2() {
         </div>
         <h3> The Final Product:</h3>
         <p>
-        The implementation of our ideas was pretty easy as everything was kept very simple. The pages remained almost exactly the same as how we originally designed them except for the history page where we decided to use a slideshow of the three locations the business has been based out of in the past (San Diego, Pittsburgh, New York) instead of just having a head photo.
+          Implementing our ideas was fairly straightforward since we maintained a simple approach throughout. The pages stayed nearly identical to our original designs, except for the history page. There, instead of a single head photo, we opted for a slideshow showcasing the three locations the business was previously based out of (San Diego, Pittsburgh, New York).
         </p>
         <div className = 'fin-img'>
             <img src = {pecan1}/>

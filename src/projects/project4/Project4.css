@@ -1,70 +1,70 @@
 .P4-header {
-    background-image: url('../../images/block-wave.svg');
-    width: auto;
-    height: 12vw;  
-    background-position: left;
-  }
+  background-image: url('../../images/block-wave.svg');
+  width: auto;
+  height: 12vw;  
+  background-position: left;
+}
   
-  .head-containerP4 {
-    display: flex;
-    align-items: center; 
-  }
+.head-containerP4 {
+  display: flex;
+  align-items: center; 
+}
     
-  .head-containerP4 h1{
-    color:#24344D;
-    font-size:10vw;
-    padding-left:5vw;
-  }
-  .head-containerP4 h3 {
-    color:#24344D;
-    font-size: 1.5vw; 
-    padding-left:8vw;
+.head-containerP4 h1{
+  color:#24344D;
+  font-size:10vw;
+  padding-left:5vw;
+}
+.head-containerP4 h3 {
+  color:#24344D;
+  font-size: 1.5vw; 
+  padding-left:8vw;
       
-  }
-  .head-containerP4 h2 {
-    color:#24344D;
-    font-size: 2vw; 
-    padding-left:8vw;
-  }
-  .headimg4{
-    background-color: rgb(0, 0, 0);
-    margin-right:50px;
-    margin-left:50px;
-    margin-bottom:50px;
-    border:5px solid #24344D;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .headimg4 img{
-    display: block;
-    max-width: 90%;
-  }
-  .bodyP4 ul{
-    padding-left:17vw;
-    padding-right:17vw;
-    padding-bottom: 5vw;
-    list-style-type:disc;
-    display: flex;
-    flex-direction: column;
-  }
-  .bodyP4 li{
-    color:#24344D;
-    font-family: sans-serif;
-    font-size: 1.5vw;
-    font-weight: 700;
-    margin: 0 10px;
-    padding-right:1vw;
-  }
+}
+.head-containerP4 h2 {
+  color:#24344D;
+  font-size: 2vw; 
+  padding-left:8vw;
+}
+.headimg4{
+  background-color: rgb(0, 0, 0);
+  margin-right:50px;
+  margin-left:50px;
+  margin-bottom:50px;
+  border:5px solid #24344D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headimg4 img{
+  display: block;
+  max-width: 90%;
+}
+.bodyP4 ul{
+  padding-left:17vw;
+  padding-right:17vw;
+  padding-bottom: 5vw;
+  list-style-type:disc;
+  display: flex;
+  flex-direction: column;
+}
+.bodyP4 li{
+  color:#24344D;
+  font-family: sans-serif;
+  font-size: 1.5vw;
+  font-weight: 700;
+  margin: 0 10px;
+  padding-right:1vw;
+}
 .bodyP4 p{
-    color:#24344D;
-    font-family: sans-serif;
-    font-size: 2vw;
+  color:#24344D;
+  font-family: sans-serif;
+  font-size: 2vw;
 }
 .top-body p{
   padding-left:17vw;
-    padding-right:17vw;
-    padding-bottom: 5vw;
+  padding-right:17vw;
+  padding-bottom: 5vw;
 }
 .bodyP4 a{
   color:#24344D;
@@ -79,41 +79,41 @@
 }
 
 .prototyping-container {
-    display: flex;
-    align-items: center;
-  }
+  display: flex;
+  align-items: center;
+}
   
-  .prototyping-text {
-    flex: 1;
-    padding-right: 2vw;
-    padding-left:8vw;
-  }
-  .prototyping-image{
-    padding-right: 8vw;
-    flex: 1;
-    text-align: center;
-  }
-  .prototyping-image p{
-    color:#24344D;
+.prototyping-text {
+  flex: 1;
+  padding-right: 2vw;
+  padding-left:8vw;
+}
+.prototyping-image{
+  padding-right: 8vw;
+  flex: 1;
+  text-align: center;
+}
+.prototyping-image p{
+  color:#24344D;
   font-family: sans-serif;
   font-size: 1.5vw;
   font-style: italic;
-  }
-  .prototyping-image img {
-    max-width: 100%; 
-    background-color: rgb(0, 0, 0);
-    border:2px solid #24344D;
-  }
-  .inksc-conatainer{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      margin-top: 40px;
+}
+.prototyping-image img {
+  max-width: 100%; 
+  background-color: rgb(0, 0, 0);
+  border:2px solid #24344D;
+}
+.inksc-conatainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
 
-  }
-  .inksc-conatainer img{
-    width:75%;
+}
+.inksc-conatainer img{
+  width:75%;
 }
 .inksc-conatainer p{
   color:#24344D;
@@ -134,8 +134,8 @@
   border:5px solid #24344D;
 
 }
-  .P4-footer {
-    background-image: url('../../images/wave.svg');
-    width:100%;
-    height:22vw;
-  }
+.P4-footer {
+  background-image: url('../../images/wave.svg');
+  width:100%;
+  height:22vw;
+}

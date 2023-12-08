@@ -5,8 +5,6 @@
   background-position: left;
   background-repeat: ;
 }
-
-
 .head-containerP1 {
   display: flex;
   align-items: center; 
@@ -52,7 +50,6 @@
   margin: 0 10px;
   padding-right:2vw;
 }
-
 .bodyP1 h3{
   color:#24344D;
   font-family: serif,sans-serif;
