@@ -19,30 +19,30 @@ export const RevealBar = ({ children, width = "100%" }) => {
     <div ref={ref} style={{ position: "relative", width, overflow: "hidden" }}>
       <motion.div
         variants={{
-          hidden: { opacity: 0, x: -300 },
-          visible: { opacity: 1, x: 0 }
+          hidden: { opacity: 0, y: -300 },
+          visible: { opacity: 1, y: 0 }
         }}
         initial="hidden"
         animate={mainControls}
-        transition={{ duration: 0.75, delay:0.25 }}
+        transition={{ duration: .75, delay:.75}}
       >
         {children}
       </motion.div>
       <motion.div
         variants={{
-          hidden: { right: 0 },
-          visible: { right: "100%" }
+          hidden: { bottom: 0 },
+          visible: { bottom: "100%" }
         }}
         initial="hidden"
         animate={slideControls}
-        transition={{ duration: 1 }}
+        transition={{ duration: 1, delay:.25}}
         style={{
           position: "absolute",
           top: 0,
           bottom: 0,
           left: 0,
           right: 0,
-          background: '#dee4ef',
+          background: 'rgb(20, 45, 71)',
           zIndex: 40,
         }}
       ></motion.div>

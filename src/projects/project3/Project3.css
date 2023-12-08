@@ -46,11 +46,12 @@
     padding-bottom: 5vw;
     list-style-type:disc;
     display: flex;
+    flex-direction: column;
   }
   .bodyP3 li{
     color:#24344D;
     font-family: sans-serif;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-weight: 700;
     margin: 0 10px;
     padding-right:1vw;

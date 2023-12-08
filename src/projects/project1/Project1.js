@@ -9,7 +9,6 @@ function Project1() {
     <div>
       <header className = "P1-header">
       </header>
-      <RevealBar>
       <div className="head-containerP1">
         <h1>01</h1>
           <div>
@@ -18,7 +17,6 @@ function Project1() {
             <h3>Research/Proposed Product</h3>
           </div>
       </div>
-      </RevealBar>
       <div className="head-img" >
         <img src={redesign}/>
       </div>
@@ -27,18 +25,18 @@ function Project1() {
           As a project for my DSGN 1 class, I was placed in a group with 5 other designers with an objective to find an everyday item that had some sort of flaw in its design. My group chose the rideshare service SPIN.
           <a href= "https://docs.google.com/document/d/1VHDvcHSWqgVnjmUWmJ2Z4fSX8D6n0XTA0cI4hHTgxnA/edit" target = 'blank'>The full report can be found here</a>, a brief summary can be found down the page.
         </p>
-        <h3>Skills Displayed:</h3>
-        <ul>
-          <li>User Research and Analysis</li>
-          <li>User Journey Mapping</li>
-          <li>Prototyping</li>
-          <li>Group Collaboration</li>
-        </ul>
-        <ul>
-          <li>Design Thinking</li>
-          <li>Problem-Solving Abilities</li>
-          <li>Documentation and Reporting</li>
-        </ul>
+          <h3>Skills Displayed:</h3>
+          <div className = "list-display">
+            <ul>
+              <li>User Research and Analysis</li>
+              <li>User Journey Mapping</li>
+              <li>Prototyping</li>
+              <li>Group Collaboration</li>
+              <li>Design Thinking</li>
+              <li>Problem-Solving Abilities</li>
+              <li>Documentation and Reporting</li>
+            </ul>
+          </div>
         <h3>Brief Summary:</h3>
         <p>
           Based on our group's previous experience riding SPIN scooters, there were several notable issues in the design that hindered the overall user experience. 
@@ -51,7 +49,7 @@ function Project1() {
         </p>
         <h3>What We Found:</h3>
         <p>
-          Throughout the interview process, the mentioned issues from most to least mentioned were as follows: App (23/23), Speed (18/23), Parking (18/23), Brakes (13/23), Auto-Speed Reduce (10/23), Storage (4/23), and finally Alarm Notification (3/23).
+          Throughout the interview process, the issues from most to least mentioned were as follows: App (23/23), Speed (18/23), Parking (18/23), Brakes (13/23), Auto-Speed Reduce (10/23), Storage (4/23), and finally Alarm Notification (3/23).
         </p>
         <div className="data-img" >
           <img src={data}/>
@@ -64,7 +62,7 @@ function Project1() {
         </p>
         <p>
           The other most prominent issue that users had wth the scooters was speed (or lack there of). In total, 18/23 people interviewed had issues with the scooters speed with half of those noting that the scooters were much to slow in general. The scooters also have a speed reduction mechanism when entering certain zones around the UCSD campus. However there is no indication
-          as tp when you are netering or exiting one of these zones making your soeed unpredictible. 10/18 people interviewed mentioned this as a major saftey issue that shies them away from using the scooters. After doing some field testring and research, we noted that there are three different speed zones you can enter around campus: 12mph, 8-10mph, and 5mph. Transfering from a 12mph to a 5mph zone speeds the scooter down instantly 
+          as to when you are entering or exiting one of these zones making your speed unpredictible. 10/18 people interviewed mentioned this as a major saftey issue that shies them away from using the scooters. After doing some field testring and research, we noted that there are three different speed zones you can enter around campus: 12mph, 8-10mph, and 5mph. Transfering from a 12mph to a 5mph zone speeds the scooter down instantly 
           and doing the opposite speed the scooter up instatnyl aswell. To resolve this, we implemented a flat speed of 10mph, fast enough to get around, but slow enough to allow for safe travel. 
         </p>
         <p>

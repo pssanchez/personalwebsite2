@@ -1,23 +1,23 @@
 .text-container {
     transition: opacity 1s ease-in-out;
-    font-size: 9vw; 
+    font-size: 8vw; 
     color: rgb(16, 22, 47);
     height:5vw;
     position:relative;
     z-index:2;
-    font-family: "germania-one", serif;
-    font-weight: 400;
+    font-family: "capitolina", serif;
+    font-weight: 700;
     font-style: normal;
 }
 
 .default-text {
-    font-size: 9vw; 
+    font-size: 10vw; 
     color: rgb(16, 22, 47);
     height:5vw;
     position:relative;
     z-index:2;
-    font-family: "germania-one", serif;
-    font-weight: 400;
+    font-family: "capitolina", serif;
+    font-weight: 700;
     font-style: normal;
 }
 

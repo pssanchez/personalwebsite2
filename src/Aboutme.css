@@ -2,20 +2,58 @@
 .about-body{
     display: flex;
 }
+.about-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .about-nav a {
+    font-family: "capitolina", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(0, 0, 0); 
+    text-decoration: none; 
+    margin-right: 60px; 
+    margin-left: 20px;
+    font-weight:bold;
+    font-size:2vw;
+    align-self: right;
+  }
+  .about-nav p{
+    font-family: "germania-one", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(0, 0, 0);
+    margin-left: 60px;
+    font-size:2.5vw;
+    margin-right: auto;
+  }
+  .about-nav a:hover{
+    color:rgb(154, 154, 154);
+    text-decoration: underline; 
+    text-underline-offset: 1vw;;
+  }
+
 .bio  {
-    margin-top: 2vw;
+    margin-top: 12vw;
     margin-left:40px;
-    width: 60vw;
+    width: 40vw;
     position:relative;
     width: 66vw;
     text-align: left;
     flex:1;
 }
 .bio p{
-    width:58vw;
+    width:40vw;
     color:#24344D;
-    font-family: sans-serif;
-    font-size: 1.8vw;
+    font-family: Myriad Pro;
+    font-size: 1.3vw;
     padding-right: 8vw;
     padding-left: 10px;
 }
@@ -26,12 +64,12 @@
     position: absolute;
     height:30vw;
     top:30%;
-    left:66%;
+    left:50%;
 }
 .bio h2{
     color:#24344D;
     font-family: sans-serif;
-    font-size: 2.2vw;
+    font-size: 1.5vw;
     padding-top:40px; 
     padding-left:10px;
 }
@@ -41,13 +79,13 @@
     height:5vw;
     position:relative;
     z-index:2;
-    font-family: "germania-one", serif;
-    font-weight: 400;
+    font-family: "capitolina", serif;
+    font-weight: 700;
     font-style: normal;
 }
 .p-text p{
     font-style: italic;
-    font-size: 1.7vw;
+    font-size: 1.3vw;
 }
 footer img{
     width:98vw;

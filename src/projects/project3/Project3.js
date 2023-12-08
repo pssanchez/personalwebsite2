@@ -10,7 +10,7 @@ function Project3() {
       <header className = "P3-header">
       </header>
       <div className="head-containerP3">
-        <h1>03</h1>
+        <h1>04</h1>
           <div>
             <h2>Custom Surfboard Shaping</h2>
             <h3>Taken on for fun, physical product</h3>
@@ -30,9 +30,6 @@ function Project3() {
           <li>Hands on Construction</li>
           <li>Power/Hand Tools Proficiency</li>
           <li>Attention to Detail</li>
-          
-        </ul>
-        <ul>
           <li>Creativity and Innovation</li>
           <li>Safety and Work Environment Knowledge</li>
           <li>Quality Control and Assurance</li>

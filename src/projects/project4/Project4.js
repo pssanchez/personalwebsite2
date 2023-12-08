@@ -13,7 +13,7 @@ function Project4() {
       <header className = "P4-header">
       </header>
       <div className="head-containerP4">
-        <h1>04</h1>
+        <h1>02</h1>
           <div>
             <h2>UCSD In A Box</h2>
             <h3>Prospective Business, Physical Product</h3>
@@ -34,8 +34,6 @@ function Project4() {
           <li>Laser Cutting and Engraving</li>
           <li>Design Adaptation</li>
           <li>CAD(Inkscape)</li>
-        </ul>
-        <ul>
           <li>Quality Control and Inspection</li>
           <li>Creativity and Design Innovation</li>
           <li>Problem-Solving Abilities</li>

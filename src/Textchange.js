@@ -47,7 +47,7 @@ class Textchange extends Component {
 
                 const growingInterval = setInterval(() => {
                     this.setState((prevState) => ({
-                        fontSizeMultiplier: prevState.fontSizeMultiplier === 1.25 ? 1 : 1.25, // Toggle font size
+                        fontSizeMultiplier: prevState.fontSizeMultiplier === 1 ? 1 : 1.25, // Toggle font size
                     }));
                 }, 250); 
 

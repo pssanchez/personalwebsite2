@@ -22,7 +22,7 @@ export const RevealHorizontal = ({ children, width = "100%" }) => {
         }}
         initial="hidden"
         animate={mainControls}
-        transition={{ duration: 1, delay: 0.2 }}
+        transition={{ duration: .75 }}
       >
         {children}
       </motion.div>

@@ -16,7 +16,7 @@ function Project2() {
       <header className = "P2-header">
       </header>
       <div className="head-containerP2">
-        <h1>02</h1>
+        <h1>03</h1>
           <div>
             <h2>Pecan FO Website</h2>
             <h3>Proffesional Website, Finished Product</h3>
@@ -37,8 +37,6 @@ function Project2() {
           <li>HTML/CSS</li>
           <li>Javascript</li>
           <li>Web Development Tools</li>
-        </ul>
-        <ul>
           <li>Version Control (Git)</li>
           <li>Prototyping</li>
           <li>Customer Input -> Product</li>

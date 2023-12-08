@@ -19,12 +19,12 @@ export const RevealVertical = ({ children, width = "100%" }) => {
     <div ref={ref} style={{ position: "relative", width, overflow: "hidden" }}>
       <motion.div
         variants={{
-          hidden: { opacity: 0, y: 200 },
+          hidden: { opacity: 1, y: 200 },
           visible: { opacity: 1, y: 0 }
         }}
         initial="hidden"
         animate={mainControls}
-        transition={{ duration: 1 }}
+        transition={{ duration: 1, delay:.1 }}
       >
         {children}
       </motion.div>
